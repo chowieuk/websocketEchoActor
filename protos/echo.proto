@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "github.com/chowieuk/protoactor-go-playground/websocketEchoActor/protos";
+
+
+// Echo request message.
+message EchoRequest {
+  string message = 1;
+  string duration = 2;
+  int32 mt = 3;
+}
+
+// Echo response message.
+message EchoResponse {
+  string message = 1;
+}
