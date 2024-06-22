@@ -15,7 +15,7 @@ import (
 	"github.com/lmittmann/tint"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/chowieuk/protoactor-go-playground/websocketEchoActor/protos"
+	"github.com/chowieuk/websocketEchoActor/protos"
 )
 
 var (

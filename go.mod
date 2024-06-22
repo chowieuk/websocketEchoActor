@@ -1,4 +1,4 @@
-module github.com/chowieuk/protoactor-go-playground/websocketEchoActor
+module github.com/chowieuk/websocketEchoActor
 
 go 1.21.5
 
