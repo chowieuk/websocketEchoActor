@@ -4,6 +4,10 @@ An adaptation of https://github.com/gorilla/websocket/tree/main/examples/echo th
 
 To build and run the example, you must have the protoc compiler installed, and the Protobuffer package dependencies for go and JS installed.
 
+## Protoc compiler
+
+Follow the guide at https://grpc.io/docs/protoc-installation/
+
 ## Protobuf package dependencies
 
 ### Go
@@ -11,6 +15,7 @@ To build and run the example, you must have the protoc compiler installed, and t
 ```sh
 go get -u google.golang.org/protobuf/cmd/protoc-gen-go
 go install google.golang.org/protobuf/cmd/protoc-gen-go
+go install google.golang.org/grpc/cmd/protoc-gen-go-grpc@v1.2
 ```
 
 NOTE: You should also ensure protoc-gen-go is included in your PATH
@@ -23,6 +28,7 @@ PATH="${PATH}:${HOME}/go/bin"
 
 ```sh
 npm install -g protoc-gen-js
+npm install
 ```
 
 ## Build and run
